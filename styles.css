@@ -20,7 +20,7 @@ body{
 	padding:25px;
 	position:relative;
 }
-.left{
+.product__photo{
 	background:greenyellow;
 	height:350px;
 	width:300px;
@@ -33,26 +33,26 @@ body{
 	left:-20px;
 	
 }
-.share{
+.control{
 	float:left;
 	margin:5px;
 	color:white;
 }
-.heart{
+.controls{
 	float:right;
 	margin:5px;
 	color:white;
 	
 }
 
-.left img{
+.product__photo img{
 	height:300px;
 	width:250px;
 	margin-left:-40px;
 	margin-top:30px;
 	
 }
-.apple{
+.photo-album{
 	margin-top:380px;
 	border:2px solid gray;
 	width:60px;
@@ -60,7 +60,7 @@ body{
 	margin-left:2px;
 	
 }
-.right{
+.product__info{
 	display:block;
 	text-align:left;
 	
@@ -69,11 +69,11 @@ body{
 	text-align:left;
 	float:left;
 } */
-.color{
+.variant{
 	padding-left:10px;
 	margin-left:30px;
 }
-.bullets{
+.description{
 	margin:10px;
 /* 	text-align:center; */
 	float:center;
